@@ -1,0 +1,30 @@
+{
+  "name": "graphdesign",
+  "version": "1.0.0",
+  "description": "This is a graph design library",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pachbhaidivya30/graphdesign.git"
+  },
+  "keywords": [
+    "graph design",
+    "bar graph"
+  ],
+  "author": "Divya P and Rushikesh W",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pachbhaidivya30/graphdesign/issues"
+  },
+  "homepage": "https://github.com/pachbhaidivya30/graphdesign#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "files": ["lib/**/*"]
+
+}
